@@ -1,8 +1,8 @@
 import React from "react";
 import "./Navbar.css";
 
-const navbar = () => {
-  return <nav className="nav">Navbar</nav>;
+const Hedear = () => {
+  return <nav>Navbar</nav>;
 };
 
-export default navbar;
+export default Hedear;

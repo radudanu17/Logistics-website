@@ -1,10 +1,11 @@
 import "./App.css";
-import Corporate from "./components/Corporate/Corporate";
+import Hedear from "./components/Hedear/Hedear";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div>
-      <Corporate />
+      <Hedear />
     </div>
   );
 }
