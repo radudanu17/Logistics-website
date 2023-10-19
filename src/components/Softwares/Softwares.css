@@ -1,0 +1,135 @@
+.softwares {
+  width: 1920px;
+  height: 648px;
+  background-image: url(../../assets/Background.svg);
+  background-repeat: no-repeat;
+  margin-top: 95px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 142px;
+}
+
+.generaly {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-1 {
+  margin-left: 260px;
+  height: 220px;
+}
+
+.what-we-do {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 160% */
+  opacity: 0.3;
+  width: 122px;
+  height: 32px;
+}
+
+.div {
+  width: 929px;
+  height: 180px;
+  position: relative;
+}
+
+.text-wrapper {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 125% */
+}
+
+.line-2 {
+  background-color: var(--yellow);
+  width: 442px;
+  height: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -77px;
+  margin-left: 428px;
+}
+
+.product-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 25px;
+  height: 130px;
+}
+
+.product-wrapper img {
+  width: 59px;
+  height: 59px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 17px;
+}
+
+.product-info h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 112.5% */
+}
+
+.product-info p {
+  color: #818181;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.content-3 {
+  flex-direction: row;
+  display: flex;
+  margin-left: 260px;
+  margin-top: 120px;
+  gap: 5px;
+}
+
+.machinery {
+  width: 220px;
+  height: 176.969px;
+  flex-direction: column;
+  display: flex;
+  padding: 33px 26px 19px 26px;
+  justify-content: center;
+  align-items: center;
+}
+
+.machinery:hover {
+  background-color: #ffffff;
+  width: 220px;
+  height: 176.969px;
+  padding: 33px 23px 19px 26px;
+}
+
+.machinery img {
+  width: 57px;
+  height: 57px;
+  padding-bottom: 16px;
+}
+
+.machinery p {
+  color: var(--Black, #000);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}

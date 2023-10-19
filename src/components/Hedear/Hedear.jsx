@@ -9,41 +9,69 @@ import MenuIcon from "../../assets/MenuIcon.png";
 
 const Hedear = () => {
   return (
-    <div class="header-main">
-      <div class="overlap">
-        <div class="help">
-          <div class="text-wrapper">+0(850) 544 7514</div>
-          <div class="div">Do you need help?</div>
-          <img class="icon" src={Logo} />
+    <div className="header-main">
+      <div className="overlap">
+        <div className="help">
+          <div className="text-wrapper">+0(850) 544 7514</div>
+          <div className="div">Do you need help?</div>
+          <img className="icon" src={Logo} />
         </div>
-        <div class="logo-dark">
-          <div class="logo-dark-2">Crosson</div>
+        <div className="logo-dark">
+          <div className="logo-dark-2">Crosson</div>
         </div>
-        <div class="social-media">
-          <img class="linkedin" src={Linkedin} />
-          <img class="twitter" src={Twitter} />
-          <img class="instagram" src={Instagram} />
+        <div className="social-media">
+          <a href="#">
+            <img className="linkedin" src={Linkedin} />
+          </a>
+          <a href="#">
+            <img className="twitter" src={Twitter} />
+          </a>
+          <a href="#">
+            <img className="instagram" src={Instagram} />
+          </a>
         </div>
-        <div class="language">
-          <div class="overlap-group">
-            <div class="text-wrapper-2">Language</div>
-            <div class="text-wrapper-3">English</div>
+        <div className="language">
+          <div className="overlap-group">
+            <div className="text-wrapper-2">Language</div>
+            <div className="text-wrapper-language">English</div>
           </div>
-          <img class="img" src={Language} />
+          <img className="img" src={Language} />
         </div>
       </div>
-      <div class="border"></div>
+      <div className="border"></div>
       <div class="menu">
         <div class="overlap-2">
-          <p class="products-solutions">
-            Products&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Softwares&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Services&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Corporate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            News&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contact
-          </p>
-          <img class="menu-icon" src={MenuIcon} />
+          <ul class="menu-items">
+            <li class="dropdown">
+              <a href="#" class="dropbtn">
+                Products
+              </a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+              <img className="menu-icon" src={MenuIcon} />
+            </li>
+            <li>
+              <a href="#">Solutions</a>
+            </li>
+            <li>
+              <a href="#">Softwares</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Corporate</a>
+            </li>
+            <li>
+              <a href="#">News</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

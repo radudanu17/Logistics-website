@@ -1,5 +1,8 @@
-/* Lets import the font to use */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter/Inter-Regular.woff2") format("woff2");
+}
 
 * {
   padding: 0;
@@ -9,96 +12,65 @@
 }
 
 :root {
+  --black: rgba(0, 0, 0, 1);
+  --blue: rgba(3, 83, 151, 1);
+  --dark-blue: rgba(0, 30, 108, 1);
+  --heading-font-family: "Roboto";
+  --heading-0-font-family: "Inter-Regular", Helvetica;
+  --heading-1-font-family: "Roboto-Regular", Helvetica;
+  --heading-1-font-size: 60px;
+  --heading-1-font-style: normal;
+  --heading-1-font-weight: 400;
+  --heading-1-letter-spacing: 0px;
+  --heading-1-line-height: normal;
+  --heading-2-font-family: "Roboto-Regular", Helvetica;
+  --heading-2-font-size: 48px;
+  --heading-2-font-style: normal;
+  --heading-2-font-weight: 400;
+  --heading-2-letter-spacing: 0px;
+  --heading-2-line-height: 60px;
+  --heading-3-font-family: "Roboto-Regular", Helvetica;
+  --heading-3-font-size: 30px;
+  --heading-3-font-style: normal;
+  --heading-3-font-weight: 400;
+  --heading-3-letter-spacing: 0px;
+  --heading-3-line-height: 38px;
+  --heading-4-font-family: "Roboto-Regular", Helvetica;
+  --heading-4-font-size: 24px;
+  --heading-4-font-style: normal;
+  --heading-4-font-weight: 400;
+  --heading-4-letter-spacing: 0px;
+  --heading-4-line-height: 32px;
+  --heading-5-font-family: "Roboto-Regular", Helvetica;
+  --heading-5-font-size: 18px;
+  --heading-5-font-style: normal;
+  --heading-5-font-weight: 400;
+  --heading-5-letter-spacing: 0px;
+  --heading-5-line-height: 28px;
+  --light-blue: rgba(239, 255, 253, 1);
+  --light-paragraph-font-family: "Roboto-Regular", Helvetica;
+  --light-paragraph-font-size: 18px;
+  --light-paragraph-font-style: normal;
+  --light-paragraph-font-weight: 400;
+  --light-paragraph-letter-spacing: 0.36px;
+  --light-paragraph-line-height: 24px;
+  --light-subtitle-font-family: "Roboto-Bold", Helvetica;
+  --light-subtitle-font-size: 20px;
+  --light-subtitle-font-style: normal;
+  --light-subtitle-font-weight: 700;
+  --light-subtitle-letter-spacing: 0px;
+  --light-subtitle-line-height: 32px;
+  --orange: rgba(232, 99, 10, 1);
+  --paragraph-font-family: "Roboto-Regular", Helvetica;
+  --paragraph-font-size: 18px;
+  --paragraph-font-style: normal;
+  --paragraph-font-weight: 400;
+  --paragraph-letter-spacing: 0.36px;
+  --paragraph-line-height: 30px;
+  --white: rgba(255, 255, 255, 1);
+  --yellow: rgba(252, 217, 0, 1);
 }
 
-/*
-body {
-  background: white;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-  cursor: pointer;
-}
-
-.section {
-  padding: 4rem 0 2rem;
-}
-
-.container {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.icon {
-  font-size: 1.3rem;
-  cursor: pointer;
-}
-
-.none {
+body::-webkit-scrollbar {
   display: none;
 }
-
-.flex {
-  display: flex;
-  align-items: center;
-}
-
-.grid {
-  display: grid;
-  align-items: center;
-}
-
-.btn {
-  padding: 0.7rem 1.5rem;
-  background: yellow;
-  border: none;
-  outline: none;
-  border-radius: 3rem;
-  cursor: pointer;
-  color: white;
-}
-
-.btn a {
-  color: white;
-  font-weight: 400;
-}
-
-.btn:hover {
-  background: black;
-}
-
-img,
-video {
-  width: 100%;
-  height: auto;
-}
-
-input {
-  font-size: 100%;
-  color: green;
-}
-
-p {
-  font-size: 13px;
-  color: gold;
-  line-height: 22px;
-}
-
-h4 {
-  padding: 1rem 0;
-  font-weight: 700;
-  color: black;
-}
-
-h2 {
-  font-size: 25px;
-  padding: 1rem 0;
-  color: black;
-}
-
-/* This is all for the default styles */
