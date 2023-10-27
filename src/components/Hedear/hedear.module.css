@@ -1,0 +1,196 @@
+.headerMain {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  height: 130px;
+  flex-shrink: 0;
+  background-color: #ffffff;
+}
+
+.overlap {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactHedear {
+  display: flex;
+  flex-direction: row;
+  margin-top: 17px;
+  margin-left: 20px;
+}
+
+.contactHedear img {
+  width: 28px;
+  height: 28px;
+}
+
+.helpData {
+  display: flex;
+  flex-direction: column;
+  margin-left: 11px;
+  gap: 1px;
+}
+
+.helpData p {
+  color: var(--Black, #000);
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.helpData a {
+  color: var(--Black, #000);
+  font-family: var(--heading-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.crosson {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 706px;
+  margin-top: 14px;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 29.164px;
+  margin-left: 619px;
+  margin-top: 25px;
+}
+
+.socialMedia a:nth-child(1) img {
+  width: 18.836px;
+  height: 18px;
+}
+
+.socialMedia a:nth-child(2) img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.socialMedia a:nth-child(3) img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.language {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
+.language img {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.socialMedia img {
+  transition: all 0.3s linear;
+}
+
+.socialMedia img:hover {
+  transform: scale(1.5);
+}
+
+.overlapGroup {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+}
+
+.overlapGroup p:nth-child(1) {
+  color: var(--Black, #000);
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+
+.overlapGroup p:nth-child(2) {
+  color: var(--Black, #000);
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.border {
+  margin-top: 14px;
+  border: 1px solid #ebebeb;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin-left: 580px;
+  margin-top: 21px;
+}
+
+.menu .menuItems {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 40px;
+}
+
+.menu .menuItems li a {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  gap: 10px; /* Adjust the gap between text and icon as needed */
+  color: var(--Black, #000);
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  color: #007bff;
+}
+
+.menu .menuItems .dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  align-items: center;
+}
+
+.menu .menuItems .dropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.menu .menuItems .dropdownContent a:hover {
+  background-color: #f1f1f1;
+}
+
+.menu .menuItems .dropdown:hover .dropdownContent {
+  display: block;
+}

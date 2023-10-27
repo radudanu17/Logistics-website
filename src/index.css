@@ -12,7 +12,7 @@
 }
 
 :root {
-  --black: rgba(0, 0, 0, 1);
+  --black: rgba(0, 0, 0);
   --blue: rgba(3, 83, 151, 1);
   --dark-blue: rgba(0, 30, 108, 1);
   --heading-font-family: "Roboto";

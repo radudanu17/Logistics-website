@@ -1,0 +1,137 @@
+.carousel .control-dots .dot {
+  width: 10px;
+  height: 10px;
+}
+
+.products {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 34.08%;
+  left: 13.44%;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .heading h2 {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 125% */
+  text-align: left;
+  width: 65%;
+  z-index: 1;
+}
+
+.heading .line {
+  background-color: var(--yellow);
+  height: 10px;
+  width: 300px;
+  margin-left: 285px;
+  margin-top: -20px;
+}
+
+.heading p {
+  flex-shrink: 0;
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.36px;
+  text-align: left;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.footer {
+  display: flex;
+  margin-top: 35px;
+}
+
+.footer button {
+  width: 220px;
+  height: 48px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 4px;
+  background: var(--Yellow, #fcd900);
+}
+
+.footer button span {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.36px;
+}
+
+.footer button .icon {
+  width: 4.943px;
+  height: 9.167px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  stroke: var(--Black, #000);
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.contact {
+  display: flex;
+  margin-left: -52px;
+}
+
+.contact .phone {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-top: 10px;
+  margin-left: 6px;
+}
+
+.numberText {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+  margin-left: -47px;
+}
+
+.numberText p {
+  color: var(--Black, #000);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 119px;
+  height: 17px;
+  opacity: 0.7;
+}
+
+.numberText a {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  width: 159px;
+  height: 23px;
+  top: 20px;
+  left: 41px;
+}

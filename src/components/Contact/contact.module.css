@@ -1,0 +1,253 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/src/assets/BackgroundContact.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.1; */
+  background-blend-mode: luminosity;
+  width: 1920px;
+  height: 560px;
+}
+
+.generalContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 69px;
+  margin-left: 259px;
+}
+
+.generalContainerContact {
+  display: flex;
+  flex-direction: row;
+}
+
+.questions {
+  height: 76px;
+  width: 311px;
+}
+
+.questions h1 {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 126.667% */
+}
+
+.questions .line {
+  background-color: var(--yellow);
+  width: 206px;
+  height: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -52px;
+  margin-left: 95px;
+}
+
+.containerContact {
+  display: flex;
+  flex-direction: row;
+  margin-left: 294px;
+  gap: 25px;
+}
+
+.descriptionContacts {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.descriptionContacts img {
+  display: flex;
+  flex-direction: row;
+}
+
+.descriptionContacts:nth-child(1) img {
+  width: 36px;
+  height: 36px;
+}
+
+.descriptionContacts:nth-child(2) img {
+  width: 41px;
+  height: 41px;
+}
+
+.descriptionContacts:nth-child(3) img {
+  width: 46px;
+  height: 46px;
+}
+
+.textContacts {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.textContacts p {
+  color: var(--Black, #000);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.textContacts a {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.descriptionContacts:nth-child(1) a {
+  margin-top: 3px;
+}
+
+.textContacts h1 {
+  color: var(--Black, #000);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 70%;
+}
+
+.textContacts h6 {
+  color: var(--Black, #000);
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-top: 7px;
+}
+
+.navAllContacts {
+  display: flex;
+  flex-direction: row;
+  margin-top: 87px;
+  gap: 7px;
+}
+
+.navProducts {
+  display: flex;
+  flex-direction: column;
+}
+
+.navProducts:nth-child(2) {
+  margin-left: 99px;
+}
+
+.navProducts:nth-child(3) {
+  margin-left: 111px;
+}
+
+.navProducts p {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+}
+
+.fillingMachines {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 250% */
+  margin-top: 20px;
+}
+
+.containerCareer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 184px;
+}
+
+.containerCareer img {
+  width: 64px;
+  height: 64px;
+  margin-top: 11px;
+}
+
+.careerOpportunities {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+}
+
+.careerOpportunities h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+  margin-bottom: 25px;
+}
+
+.careerOpportunities p {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  width: 65%;
+  margin-bottom: 35px;
+}
+
+.buttonContact {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--yellow); /* Use the yellow color */
+  color: var(--Black, #000);
+  border: none;
+  border-radius: 4px;
+  font-family: "Roboto", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  width: 220px;
+  height: 48px;
+}
+
+.buttonContact .iconContact {
+  margin-left: 45px;
+  width: 4.943px;
+  height: 9.167px;
+  margin-bottom: 10px;
+}
+
+.footerHedear {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 1920px;
+  height: 108px;
+  gap: 110px;
+}
+
+.footerHedear p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 285.714% */
+  margin-bottom: 12px;
+  margin-bottom: 30px;
+}

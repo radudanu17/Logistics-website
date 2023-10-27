@@ -1,18 +1,19 @@
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
 import Hedear from "./components/Hedear/Hedear";
-import Products from "./components/Products/Products";
-import Services from "./components/Services/Services";
-import Softwares from "./components/Softwares/Softwares";
-import Solutions from "./components/Solutions/Solutions";
+import Contact from "./components/Contact/Contact";
+import Home from "./Routes/Home";
+import AboutUs from "./Routes/AboutUs";
 
 function App() {
   return (
     <div>
       <Hedear />
-      <Products />
-      <Solutions />
-      <Softwares />
-      <Services />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+      </Routes>
+      <Contact />
     </div>
   );
 }

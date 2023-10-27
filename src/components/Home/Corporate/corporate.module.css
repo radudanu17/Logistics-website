@@ -1,0 +1,127 @@
+.corporate {
+  display: flex;
+  flex-direction: column;
+  width: 1404px;
+  height: 719px;
+  margin-top: 119px;
+  margin-left: 257px;
+  margin-bottom: 122px;
+}
+
+.generalContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.howWeDo {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 160% */
+  opacity: 0.3;
+  width: 111px;
+  height: 32px;
+}
+
+.overlapGroup {
+  width: 919px;
+  height: 60px;
+}
+
+.overlapGroup h1 {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 125% */
+}
+
+.overlapGroup .line {
+  display: flex;
+  width: 384px;
+  height: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: var(--yellow);
+  margin-top: -19px;
+  margin-left: 325px;
+}
+
+.generalText {
+  width: 984px;
+  height: 68px;
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  margin-top: 9px;
+}
+
+.generalContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 67px;
+  gap: 16px;
+}
+
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.describe {
+  display: flex;
+  flex-direction: column;
+  margin-top: 26px;
+}
+
+.describe h1 {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  margin-bottom: 1px;
+}
+
+.describe p {
+  width: 317px;
+  height: 65px;
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.36px;
+  opacity: 0.7;
+}
+
+.readMore {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.36px;
+  text-decoration: none;
+  margin-top: 28px;
+}
+
+.readMore:hover {
+  color: rgb(0, 27, 233);
+}
+
+.readMore span {
+  font-size: 12px;
+  padding-left: 16px;
+  font-weight: 600;
+}

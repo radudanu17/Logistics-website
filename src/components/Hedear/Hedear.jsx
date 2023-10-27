@@ -1,78 +1,78 @@
 import React from "react";
-import "./Hedear.css";
-import Logo from "../../assets/Icon.png";
-import Instagram from "../../assets/Instagram.png";
-import Linkedin from "../../assets/Linkedin.png";
-import Twitter from "../../assets/Twitter.png";
-import Language from "../../assets/Language.png";
-import MenuIcon from "../../assets/MenuIcon.png";
+import Logo from "../../assets/IconPhone.svg";
+import Instagram from "../../assets/Instagram.svg";
+import Linkedin from "../../assets/Linkedin.svg";
+import Twitter from "../../assets/Twitter.svg";
+import Language from "../../assets/Language.svg";
+import MenuIcon from "../../assets/MenuIcon.svg";
+import { Link } from "react-router-dom";
+
+import classes from "./hedear.module.css";
 
 const Hedear = () => {
   return (
-    <div className="header-main">
-      <div className="overlap">
-        <div className="help">
-          <div className="text-wrapper">+0(850) 544 7514</div>
-          <div className="div">Do you need help?</div>
-          <img className="icon" src={Logo} />
-        </div>
-        <div className="logo-dark">
-          <div className="logo-dark-2">Crosson</div>
-        </div>
-        <div className="social-media">
-          <a href="#">
-            <img className="linkedin" src={Linkedin} />
-          </a>
-          <a href="#">
-            <img className="twitter" src={Twitter} />
-          </a>
-          <a href="#">
-            <img className="instagram" src={Instagram} />
-          </a>
-        </div>
-        <div className="language">
-          <div className="overlap-group">
-            <div className="text-wrapper-2">Language</div>
-            <div className="text-wrapper-language">English</div>
+    <div className={classes.headerMain}>
+      <div className={classes.overlap}>
+        <div className={classes.contactHedear}>
+          <img src={Logo} alt="Icon" />
+          <div className={classes.helpData}>
+            <p>Do you need help?</p>
+            <a href="tel:08505447514">+0(850) 544 7514</a>
           </div>
-          <img className="img" src={Language} />
+        </div>
+        <h1 className={classes.crosson}>Crosson</h1>
+        <div className={classes.socialMedia}>
+          <a href="#">
+            <img className={classes.linkedin} src={Linkedin} />
+          </a>
+          <a href="#">
+            <img className={classes.instagram} src={Instagram} />
+          </a>
+          <a href="#">
+            <img className={classes.twitter} src={Twitter} />
+          </a>
+        </div>
+        <div className={classes.language}>
+          <img src={Language} alt="Icon" />
+          <div className={classes.overlapGroup}>
+            <p>Language</p>
+            <p>English</p>
+          </div>
         </div>
       </div>
-      <div className="border"></div>
-      <div class="menu">
-        <div class="overlap-2">
-          <ul class="menu-items">
-            <li class="dropdown">
-              <a href="#" class="dropbtn">
-                Products
-              </a>
-              <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
-              <img className="menu-icon" src={MenuIcon} />
-            </li>
-            <li>
-              <a href="#">Solutions</a>
-            </li>
-            <li>
-              <a href="#">Softwares</a>
-            </li>
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Corporate</a>
-            </li>
-            <li>
-              <a href="#">News</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
+      <div className={classes.border} />
+      <div className={classes.menu}>
+        <ul className={classes.menuItems}>
+          <li className={classes.dropdown}>
+            <Link to="#" className="dropbtn">
+              Products
+              <img className={classes.menuIcon} src={MenuIcon} alt="Icon" />
+            </Link>
+            <div className={classes.dropdownContent}>
+              <Link to="#">Link 1</Link>
+              <Link to="#">Link 2</Link>
+              <Link to="#">Link 3</Link>
+            </div>
+          </li>
+          <li>
+            <Link to="#">Solutions</Link>
+          </li>
+          <li>
+            <Link to="#">Softwares</Link>
+          </li>
+          <li>
+            <Link to="#">Services</Link>
+          </li>
+          <li>
+            <Link to="#">Corporate</Link>
+          </li>
+          <li>
+            <Link to="#">News</Link>
+          </li>
+          <li>
+            <Link to="/about">Contact</Link>
+          </li>
+        </ul>
       </div>
     </div>
   );
