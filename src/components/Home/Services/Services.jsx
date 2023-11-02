@@ -7,7 +7,7 @@ import Icon4 from "../../../assets/Calendly.svg";
 import Icon5 from "../../../assets/IconPhone.svg";
 import Icon6 from "../../../assets/Email.svg";
 
-import classes from "./services.module.css";
+import classes from "./Services.module.css";
 
 const Services = () => {
   return (

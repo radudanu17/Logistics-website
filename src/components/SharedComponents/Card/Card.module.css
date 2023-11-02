@@ -1,0 +1,58 @@
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentDiv img {
+  height: 304px !important;
+}
+
+.describe {
+  display: flex;
+  flex-direction: column;
+  margin-top: 26px;
+}
+
+.describe h1 {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  margin-bottom: 1px;
+}
+
+.describe p {
+  width: 317px;
+  height: 65px;
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.36px;
+  opacity: 0.7;
+}
+
+.readMore {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.36px;
+  text-decoration: none;
+}
+
+.readMore:hover {
+  color: rgb(0, 27, 233);
+}
+
+.readMore span {
+  font-size: 12px;
+  padding-left: 16px;
+  font-weight: 600;
+}

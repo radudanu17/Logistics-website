@@ -1,0 +1,128 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1380px;
+  height: 591px;
+  margin-left: 258px;
+  margin-top: 28px;
+  flex-shrink: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content h1 {
+  color: var(--Black, #000);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 160% */
+  opacity: 0.3;
+}
+
+.div {
+  width: 965px;
+  height: 120px;
+}
+
+.div h2 {
+  color: var(--Black, #000);
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 125% */
+}
+
+.line {
+  position: relative;
+}
+
+.line::before {
+  content: " ";
+  position: absolute;
+  width: 382px;
+  height: 10px;
+  background-color: var(--yellow);
+  bottom: 8px;
+  left: 10px;
+  z-index: -1;
+}
+
+.content p {
+  color: var(--Black, #000);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.36px;
+  opacity: 0.7;
+  width: 1143px;
+  margin-top: 25px;
+}
+
+.content2 {
+  display: flex;
+  margin-top: 40px;
+}
+
+.content2 .box {
+  display: flex;
+  flex-direction: column;
+}
+
+.box img {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+}
+
+.box h4 {
+  color: var(--Black, #000);
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  width: 88%;
+  margin-top: 34px;
+}
+
+.box p {
+  color: var(--Black, #000);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.36px;
+  opacity: 0.7;
+  margin-top: 18px;
+  width: 317px;
+}
+
+.readMore {
+  color: var(--Black, #000);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.36px;
+  text-decoration: none;
+  margin-top: 28px;
+}
+
+.readMore:hover {
+  color: rgb(0, 27, 233);
+}
+
+.readMore span {
+  font-size: 12px;
+  padding-left: 16px;
+  font-weight: 600;
+}

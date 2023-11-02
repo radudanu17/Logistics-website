@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 import Products from "../components/Home/Products/Products";
 import Solutions from "../components/Home/Solutions/Solutions";
 import Softwares from "../components/Home/Softwares/Softwares";

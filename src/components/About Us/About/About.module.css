@@ -1,0 +1,14 @@
+.line {
+  position: relative;
+}
+
+.line::before {
+  content: " ";
+  position: absolute;
+  width: 521px;
+  height: 10px;
+  background-color: var(--yellow);
+  bottom: 4px;
+  left: 2px;
+  z-index: -1;
+}

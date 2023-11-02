@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1402px;
+  height: 585px;
+  flex-shrink: 0;
+  margin-left: 258px;
+  margin-top: 113px;
+  margin-bottom: 128px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content h1 {
+  color: var(--Black, #000);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  opacity: 0.3;
+}
+
+.div {
+  width: 950px;
+  height: 120px;
+}
+
+.div h2 {
+  color: var(--Black, #000);
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 125% */
+}
+
+.line {
+  position: relative;
+}
+
+.line::before {
+  content: " ";
+  position: absolute;
+  width: 372px;
+  height: 10px;
+  background-color: var(--yellow);
+  bottom: 8px;
+  left: 15px;
+  z-index: -1;
+}
+
+.content p {
+  color: var(--Black, #000);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.36px;
+  width: 1143px;
+  opacity: 0.7;
+  margin-top: 25px;
+}
+
+.content2 {
+  display: flex;
+}
+
+.imageContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.imageWrapper {
+  flex-shrink: 0;
+}
+
+.imageBox {
+  width: 220px;
+  height: 144px;
+  border: 1px solid #dfdfdf;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .imageBox img {
+  max-width: 100%;
+  max-height: 100%;
+} */

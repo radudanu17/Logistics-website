@@ -5,7 +5,7 @@ import Phone from "../../../assets/IconPhone.svg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
-import classes from "./products.module.css";
+import classes from "./Products.module.css";
 
 const Products = () => {
   return (
@@ -19,8 +19,12 @@ const Products = () => {
         <img src={Background} />
         <div className={classes.container}>
           <div className={classes.heading}>
-            <h2>We make Filling & Packaging Machines for Food Industry</h2>
-            <div className={classes.line} />
+            <div className={classes.div}>
+              <h2>
+                We make Filling & Packaging Machines for
+                <span className={classes.line}>&nbsp;Food Industry</span>
+              </h2>
+            </div>
             <p>
               With our flexible production capacity and high technology, we
               produce customized solutions for your needs.
@@ -45,8 +49,12 @@ const Products = () => {
         <img src={Background} />
         <div className={classes.container}>
           <div className={classes.heading}>
-            <h2>We make Filling & Packaging Machines for Food Industry</h2>
-            <div className={classes.line} />
+            <div className={classes.div}>
+              <h2>
+                We make Filling & Packaging Machines for
+                <span className={classes.line}>&nbsp;Food Industry</span>
+              </h2>
+            </div>
             <p>
               With our flexible production capacity and high technology, we
               produce customized solutions for your needs.
@@ -71,8 +79,12 @@ const Products = () => {
         <img src={Background} />
         <div className={classes.container}>
           <div className={classes.heading}>
-            <h2>We make Filling & Packaging Machines for Food Industry</h2>
-            <div className={classes.line} />
+            <div className={classes.div}>
+              <h2>
+                We make Filling & Packaging Machines for
+                <span className={classes.line}>&nbsp;Food Industry</span>
+              </h2>
+            </div>
             <p>
               With our flexible production capacity and high technology, we
               produce customized solutions for your needs.

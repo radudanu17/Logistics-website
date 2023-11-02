@@ -5,7 +5,7 @@ import Icon2 from "../../assets/Maps.svg";
 import Icon3 from "../../assets/Career.svg";
 import Icon4 from "../../assets/Icon-2.svg";
 
-import classes from "./contact.module.css";
+import classes from "./Contact.module.css";
 
 const Contact = () => {
   return (
@@ -13,9 +13,11 @@ const Contact = () => {
       <div className={classes.contact}>
         <div className={classes.generalContent}>
           <div className={classes.generalContainerContact}>
-            <div className={classes.questions}>
-              <h1>Have a any questions? Contact Us</h1>
-              <div className={classes.line} />
+            <div className={classes.div}>
+              <h3>
+                Have a<span className={classes.line}>&nbsp;any questions?</span>
+                Contact Us
+              </h3>
             </div>
             <div className={classes.containerContact}>
               <div className={classes.descriptionContacts}>

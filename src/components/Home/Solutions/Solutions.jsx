@@ -3,19 +3,18 @@ import Right from "../../../assets/Icon-2.svg";
 import Icon from "../../../assets/Icon.svg";
 import Icon2 from "../../../assets/Icon2.svg";
 import Icon3 from "../../../assets/Icon3.svg";
-import classes from "./solutions.module.css";
+import classes from "./Solutions.module.css";
 
 const Solutions = () => {
   return (
     <div className={classes.container}>
       <div className={classes.content}>
         <p className={classes.textWrapper}>WHO WE ARE</p>
-        <div className={classes.overlapGroup}>
-          <p className={classes.crossonIsAn}>
-            Crosson is an international group <br />
-            dedicated to the food industry.
-          </p>
-          <div className={classes.line} />
+        <div className={classes.div}>
+          <h2>
+            Crosson is an international group dedicated to the
+            <span className={classes.line}>&nbsp;food industry.</span>
+          </h2>
         </div>
         <div className={classes.div2}>
           <p className={classes.crossonHasTwenty}>

@@ -43,24 +43,33 @@
   height: 32px;
 }
 
-.newsDescription h1 {
+.div {
+  width: 919px;
+  height: 60px;
+}
+
+.div h2 {
   color: var(--Black, #000);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
   line-height: 60px; /* 125% */
-  z-index: 1;
 }
 
 .line {
   position: relative;
+}
+
+.line::before {
+  content: " ";
+  position: absolute;
   width: 185px;
   height: 10px;
-  background-color: #fcd900;
-  top: -17px;
-  left: 243px;
-  z-index: 0;
+  background-color: var(--yellow);
+  bottom: 7px;
+  left: 10px;
+  z-index: -1;
 }
 
 .newsDescription p:last-child {
@@ -72,6 +81,7 @@
   line-height: 32px; /* 133.333% */
   width: 984px;
   height: 68px;
+  margin-top: 11px;
 }
 
 .generalContainer {

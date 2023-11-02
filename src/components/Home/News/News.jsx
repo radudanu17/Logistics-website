@@ -4,7 +4,7 @@ import Icon1 from "../../../assets/News.svg";
 import Icon2 from "../../../assets/News-1.svg";
 import Right from "../../../assets/Icon-2.svg";
 
-import classes from "./news.module.css";
+import classes from "./News.module.css";
 
 const News = () => {
   return (
@@ -12,8 +12,12 @@ const News = () => {
       <div className={classes.newsAll}>
         <div className={classes.newsDescription}>
           <p>COMPANY NEWS</p>
-          <h1>News from Crosson</h1>
-          <div className={classes.line} />
+          <div className={classes.div}>
+            <h2>
+              News from
+              <span className={classes.line}>&nbsp;Crosson</span>
+            </h2>
+          </div>
           <p>
             Cake pudding lollipop pastry cupcake chocolate. Gummi bears halvah
             sesame snaps chocolate cake gummies sugar plum cotton candy cupcake

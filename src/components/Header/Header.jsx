@@ -7,9 +7,9 @@ import Language from "../../assets/Language.svg";
 import MenuIcon from "../../assets/MenuIcon.svg";
 import { Link } from "react-router-dom";
 
-import classes from "./hedear.module.css";
+import classes from "./Header.module.css";
 
-const Hedear = () => {
+const Header = () => {
   return (
     <div className={classes.headerMain}>
       <div className={classes.overlap}>
@@ -61,16 +61,16 @@ const Hedear = () => {
             <Link to="#">Softwares</Link>
           </li>
           <li>
-            <Link to="#">Services</Link>
+            <Link to="/services">Services</Link>
           </li>
           <li>
-            <Link to="#">Corporate</Link>
+            <Link to="/about">Corporate</Link>
           </li>
           <li>
             <Link to="#">News</Link>
           </li>
           <li>
-            <Link to="/about">Contact</Link>
+            <Link to="#">Contact</Link>
           </li>
         </ul>
       </div>
@@ -78,4 +78,4 @@ const Hedear = () => {
   );
 };
 
-export default Hedear;
+export default Header;

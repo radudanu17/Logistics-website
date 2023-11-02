@@ -6,7 +6,7 @@ import Icon3 from "../../../assets/Soft.svg";
 import Icon4 from "../../../assets/Headphones.svg";
 import Icon5 from "../../../assets/Light.svg";
 
-import classes from "./softwares.module.css";
+import classes from "./Softwares.module.css";
 
 const Softwares = () => {
   return (
@@ -15,11 +15,12 @@ const Softwares = () => {
         <div className={classes.container}>
           <p className={classes.whatWeDo}>WHAT WE DO</p>
           <div className={classes.div}>
-            <p className={classes.textWrapper}>
+            <h2>
               With our flexible production capacity and high technology, we
-              produce customized solutions for your needs.
-            </p>
-            <div className={classes.line} />
+              <span className={classes.line}>&nbsp;produce customized</span>
+              <br />
+              solutions for your needs.
+            </h2>
           </div>
         </div>
         <div className={classes.productWrapper}>
