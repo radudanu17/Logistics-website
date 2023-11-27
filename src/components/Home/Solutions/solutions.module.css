@@ -80,27 +80,27 @@
 .button {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
-  background-color: var(--yellow); /* Use the yellow color */
-  color: var(--black); /* Use the black color */
+  padding-left: 29px;
+  justify-content: space-between;
+  background-color: #fcd900;
+  color: var(--Black, #000);
   border: none;
   border-radius: 4px;
-  font-family: "Roboto-Regular", Helvetica;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-size: 18px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.36px;
   cursor: pointer;
   width: 220px;
   height: 48px;
 }
 
 .button .iconButton {
-  margin-left: 100px;
-  width: 4.943px;
-  height: 9.167px;
-  flex-shrink: 0;
-  stroke-width: 2px;
-  stroke: var(--Black, #000);
-  /* left: 21.42px; */
+  margin-right: 19px;
+  width: 14.943px;
+  height: 11.167px;
 }
 
 .text {

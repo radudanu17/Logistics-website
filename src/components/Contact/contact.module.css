@@ -4,7 +4,6 @@
   background-image: url(/src/assets/BackgroundContact.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* opacity: 0.1; */
   background-blend-mode: luminosity;
   width: 1920px;
   height: 560px;
@@ -213,11 +212,16 @@
   width: 65%;
   margin-bottom: 35px;
 }
+.careerOpportunities a {
+  text-decoration: underline;
+  color: #000;
+}
 
 .buttonContact {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding-left: 29px;
+  justify-content: space-between;
   background-color: var(--yellow); /* Use the yellow color */
   color: var(--Black, #000);
   border: none;
@@ -231,10 +235,10 @@
 }
 
 .buttonContact .iconContact {
-  margin-left: 45px;
-  width: 4.943px;
-  height: 9.167px;
-  margin-bottom: 10px;
+  margin-right: 19px;
+  width: 14.943px;
+  height: 11.167px;
+  margin-bottom: 9px;
 }
 
 .footerHedear {

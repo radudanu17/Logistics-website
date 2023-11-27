@@ -1,7 +1,7 @@
 .headerMain {
   display: flex;
   flex-direction: column;
-  width: 1920px;
+  max-width: 1920%;
   height: 130px;
   flex-shrink: 0;
   background-color: #ffffff;
@@ -88,6 +88,14 @@
   flex-shrink: 0;
 }
 
+.socialMedia img {
+  transition: all 0.3s linear;
+}
+
+.socialMedia img:hover {
+  transform: scale(1.5);
+}
+
 .language {
   display: flex;
   flex-direction: row;
@@ -99,14 +107,6 @@
   width: 30px;
   height: 30px;
   flex-shrink: 0;
-}
-
-.socialMedia img {
-  transition: all 0.3s linear;
-}
-
-.socialMedia img:hover {
-  transform: scale(1.5);
 }
 
 .overlapGroup {

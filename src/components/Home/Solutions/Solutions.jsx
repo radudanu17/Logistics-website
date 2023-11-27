@@ -18,7 +18,7 @@ const Solutions = () => {
         </div>
         <div className={classes.div2}>
           <p className={classes.crossonHasTwenty}>
-            Crosson has twenty years’ experience in food, quality, automation
+            Crosson has twenty years' experience in food, quality, automation
             and software which has been established in the food sector for
             Research, Efficiency and Solution Production.
             <br />

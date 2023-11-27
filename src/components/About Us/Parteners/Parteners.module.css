@@ -2,11 +2,10 @@
   display: flex;
   flex-direction: column;
   width: 1403px;
-  height: 457px;
+  height: 584px;
   flex-shrink: 0;
   margin-top: 114px;
   margin-left: 259px;
-  margin-bottom: 127px;
 }
 
 .content {
@@ -45,6 +44,7 @@
 
 .line {
   position: relative;
+  z-index: 1;
 }
 
 .line::before {

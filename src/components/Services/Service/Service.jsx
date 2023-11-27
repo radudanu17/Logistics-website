@@ -3,6 +3,7 @@ import Icon from "../../../assets/Icon-2.svg";
 import classes from "./Service.module.css";
 import PageHome from "../../SharedComponents/PageHome/PageHome";
 import ServiceStyles from "./Service.module.css";
+
 const pages = [
   {
     title: "Services",

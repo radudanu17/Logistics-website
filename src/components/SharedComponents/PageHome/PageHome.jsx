@@ -13,7 +13,9 @@ const PageHome = (props) => {
           <a href="/">{props.link1}</a>
           <img src={Icon} alt="Icon" />
           <a href="">{props.link2}</a>
-          {currentURL.includes("/about") ? <img src={Icon} alt="Icon" /> : null}
+          {currentURL.includes("/about") || currentURL.includes("/team-our") ? (
+            <img src={Icon} alt="Icon" />
+          ) : null}
           <a href="">{props.link3}</a>
         </div>
         <div className={classes.div}>

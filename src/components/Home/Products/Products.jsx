@@ -2,8 +2,8 @@ import React from "react";
 import Background from "../../../assets/SliderBg.svg";
 import Icon from "../../../assets/Icon-2.svg";
 import Phone from "../../../assets/IconPhone.svg";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import classes from "./Products.module.css";
 
@@ -32,7 +32,7 @@ const Products = () => {
           </div>
           <div className={classes.footer}>
             <button>
-              <span>Our Products</span>
+              Our Products
               <img className={classes.icon} alt="Icon" src={Icon} />
             </button>
             <div className={classes.contact}>

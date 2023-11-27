@@ -49,16 +49,15 @@ const Header = () => {
               <img className={classes.menuIcon} src={MenuIcon} alt="Icon" />
             </Link>
             <div className={classes.dropdownContent}>
-              <Link to="#">Link 1</Link>
-              <Link to="#">Link 2</Link>
-              <Link to="#">Link 3</Link>
+              <Link to="/products">Products</Link>
+              <Link to="/products-detail">Products Detail</Link>
             </div>
           </li>
           <li>
-            <Link to="#">Solutions</Link>
+            <Link to="/team-our">Solutions</Link>
           </li>
           <li>
-            <Link to="#">Softwares</Link>
+            <Link to="/news-detail">Softwares</Link>
           </li>
           <li>
             <Link to="/services">Services</Link>
@@ -67,10 +66,10 @@ const Header = () => {
             <Link to="/about">Corporate</Link>
           </li>
           <li>
-            <Link to="#">News</Link>
+            <Link to="/news">News</Link>
           </li>
           <li>
-            <Link to="#">Contact</Link>
+            <Link to="/contactUs">Contact</Link>
           </li>
         </ul>
       </div>

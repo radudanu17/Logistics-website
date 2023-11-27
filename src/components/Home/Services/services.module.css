@@ -133,11 +133,20 @@
   height: 8px;
 }
 
-.calendly {
-  width: 57px;
-  height: 57px;
+.calendlyButton {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.calendlyButton img {
   margin-top: 44px;
   margin-left: 78px;
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
 }
 
 .boxContainer1 {

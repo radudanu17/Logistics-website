@@ -97,7 +97,10 @@ const Contact = () => {
                 <h1>Career Opportunities</h1>
                 <p>
                   Cake pudding lollipop pastry cupcake chocolate. Gummi bears
-                  halvah <u>sesame snaps.</u>
+                  halvah{" "}
+                  <a href="https://www.bbcgoodfood.com/recipes/christmas-pudding-cake-pops">
+                    sesame snaps.
+                  </a>
                 </p>
                 <button className={classes.buttonContact}>
                   Opennig Positions
@@ -109,7 +112,10 @@ const Contact = () => {
         </div>
       </div>
       <div className={classes.footerHedear}>
-        <p>Copyright by Erkan Giris | All rights reserverd</p>
+        <p>
+          Copyright by Danu Rodion and Alexandru Iaroslavschi | All rights
+          reserverd
+        </p>
         <p>
           Our Privacy and Personal Data Protection Policy | Terms and Conditions
           of Use

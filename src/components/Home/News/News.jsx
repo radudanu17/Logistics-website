@@ -1,10 +1,15 @@
 import React from "react";
-import Icon from "../../../assets/Background-1.svg";
 import Icon1 from "../../../assets/News.svg";
 import Icon2 from "../../../assets/News-1.svg";
-import Right from "../../../assets/Icon-2.svg";
-
 import classes from "./News.module.css";
+import NewsItem from "../../SharedComponents/NewsItem/NewsItem";
+
+const icon = [
+  {
+    image: Icon1,
+    image1: Icon2,
+  },
+];
 
 const News = () => {
   return (
@@ -25,35 +30,11 @@ const News = () => {
           </p>
         </div>
         <div className={classes.generalContainer}>
-          <img src={Icon1} alt="Icons" />
-          <div className={classes.containerNews}>
-            <p style={{ width: "65%" }}>
-              Crosson Holding's 58th ordinary general assembly convened
-            </p>
-            <p>
-              Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll
-              halvah ice cream.
-            </p>
-            <button>
-              Read More
-              <img className={classes.icon} alt="Icon" src={Right} />
-            </button>
-          </div>
-          <img src={Icon2} alt="Icons" />
-          <div className={classes.containerNews}>
-            <p>Crosson Holding’s new Board of Directors has been determined.</p>
-            <p>
-              Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll
-              halvah ice cream.
-            </p>
-            <button>
-              Read More
-              <img className={classes.icon} alt="Icon" src={Right} />
-            </button>
-          </div>
+          {icon.map((item) => (
+            <NewsItem image={item.image} image1={item.image1} />
+          ))}
         </div>
       </div>
-      <img src={Icon} alt="Icon" className={classes.news} />
     </div>
   );
 };

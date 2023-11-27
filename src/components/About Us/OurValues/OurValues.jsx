@@ -39,7 +39,7 @@ const OurValues = () => {
           quality products and services with an understanding of continuous
           improvement in the fields in which it operates.
         </p>
-        <a href="#">Quality Certificates</a>
+        <a href="/pricing">Quality Certificates</a>
       </div>
       <div className={classes.content2}>
         {cards.map((card) => (

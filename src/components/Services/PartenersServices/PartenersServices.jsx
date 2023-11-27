@@ -38,7 +38,7 @@ const PartenersServices = () => {
           <h2>
             Crosson, Trusted by over
             <span className={classes.line}>&nbsp;1,000 businesses</span> of all
-            sizes{" "}
+            sizes
           </h2>
         </div>
         <p>

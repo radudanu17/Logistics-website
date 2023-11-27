@@ -1,20 +1,21 @@
 .container {
-  display: flex;
   width: 1920px;
-  height: 755px;
-  border-top: 1px solid #bdbdbd;
-  z-index: 0;
-  flex-direction: column;
-  margin-bottom: 93px;
+  height: 848px;
+  position: relative;
 }
 
-.news {
-  position: absolute;
-  width: 1520px;
+.container::before {
+  content: "";
   height: 755px;
-  left: 395px;
-  z-index: 0;
-  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 396px;
+  right: 0;
+  bottom: 0;
+  background-image: url(/src/assets/Background-1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
 
 .newsAll {
@@ -25,7 +26,6 @@
 }
 
 .newsDescription {
-  z-index: 100;
   display: flex;
   flex-direction: column;
   width: 920px;
@@ -86,60 +86,6 @@
 
 .generalContainer {
   display: flex;
-  flex-direction: row;
   margin-top: 50px;
-  gap: 44px;
-  /* margin-bottom: 93px; */
-}
-
-.generalContainer p:first-child {
-  color: #000;
-  font-family: Roboto;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 133.333% */
-}
-
-.containerNews p:first-child {
-  margin-bottom: 10px;
-}
-
-.containerNews {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.containerNews button {
-  margin-top: 56px;
-}
-
-.containerNews p:nth-child(2) {
-  width: 58%;
-}
-
-.containerNews:last-child p:first-child {
-  width: 65%;
-}
-
-.containerNews button {
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: var(--yellow);
-  color: var(--black);
-  border: none;
-  border-radius: 4px;
-  font-family: "Roboto-Regular", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  cursor: pointer;
-  width: 220px;
-  height: 48px;
-}
-
-.icon {
-  padding-left: 70px;
+  gap: 39px;
 }

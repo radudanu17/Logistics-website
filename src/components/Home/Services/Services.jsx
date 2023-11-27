@@ -51,7 +51,19 @@ const Services = () => {
                 We are Available Now <img src={Icon3} alt="Icon" />
               </p>
             </div>
-            <img src={Icon4} alt="Icon" className={classes.calendly} />
+            <div className="App">
+              <button
+                className={classes.calendlyButton}
+                onClick={() => {
+                  window.open(
+                    "https://calendly.com/danurodion/logistics-bussines",
+                    "_blank"
+                  );
+                }}
+              >
+                <img src={Icon4} alt="Icon" />
+              </button>
+            </div>
           </div>
           <div className={classes.boxContainer1}>
             <div className={classes.label1}>

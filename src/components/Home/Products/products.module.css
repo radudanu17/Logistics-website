@@ -1,6 +1,6 @@
 .carousel .control-dots .dot {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
 }
 
 .products {
@@ -73,32 +73,29 @@
 }
 
 .footer button {
-  width: 220px;
-  height: 48px;
-  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 29px;
+  justify-content: space-between;
+  background-color: #fcd900;
+  color: var(--Black, #000);
   border: none;
   border-radius: 4px;
-  background: var(--Yellow, #fcd900);
-}
-
-.footer button span {
-  color: var(--Black, #000);
-  font-family: Roboto;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
   letter-spacing: 0.36px;
+  cursor: pointer;
+  width: 220px;
+  height: 48px;
 }
 
 .footer button .icon {
-  width: 4.943px;
-  height: 9.167px;
-  flex-shrink: 0;
-  stroke-width: 2px;
-  stroke: var(--Black, #000);
-  margin-top: 10px;
-  margin-left: 50px;
+  margin-right: 19px;
+  width: 14.943px;
+  height: 11.167px;
 }
 
 .contact {
