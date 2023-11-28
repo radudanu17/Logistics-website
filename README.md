@@ -1,6 +1,6 @@
 # React + Vite + Figma
 
-https://www.figma.com/file/ztFewhF5IGgl0PCgqyoF2k/Business-Website---Logistics?node-id=347%3A1352&mode=dev
+- The project made in figma: https://www.figma.com/file/ztFewhF5IGgl0PCgqyoF2k/Business-Website---Logistics?node-id=347%3A1352&mode=dev
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
